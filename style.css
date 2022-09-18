@@ -1,0 +1,1009 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primarycolor: rgb(17, 155, 197);
+    --secondarycolor: rgb(14, 171, 116);
+}
+
+.nav {
+    background-image: linear-gradient(to right, var(--primarycolor), var(--secondarycolor));
+    color: white;
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+}
+
+.navbarl {
+    display: flex;
+    padding-left: 2em;
+}
+
+.navbarr {
+    display: flex;
+    align-items: center;
+    padding-right: 2em;
+}
+
+.nav li {
+    list-style: none;
+    padding: 0.5em;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li img {
+    width: 1.2em;
+    height: 1em;
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    .hide {
+        display: none;
+    }
+
+}
+
+.header {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+}
+
+.links li,
+button {
+    cursor: pointer;
+}
+
+
+.links ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.linksright li {
+    display: flex;
+    align-items: center;
+    padding-left: 4em;
+}
+
+.links ul li {
+    padding-left: 3em;
+}
+
+.links ul li:hover {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.linksright img {
+    padding: 0.5em;
+}
+
+.linksright li button {
+    background-color: var(--primarycolor);
+    height: 3em;
+    width: 10em;
+    font-size: 0.85em;
+    border-style: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.logo {
+    padding-left: 2em;
+    width: 100%;
+    height: auto;
+}
+
+.hiddenlinks {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .logo img {
+        width: 30%;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .hiddenlinks {
+        display: flex;
+        width: 100vw;
+
+    }
+
+    .hiddenlinks li {
+        list-style: none;
+        cursor: pointer;
+        padding: 1em;
+        font-size: 70%;
+    }
+
+    .text strong b {
+        font-size: 60%;
+
+    }
+
+    .container p {
+        font-size: 60%;
+    }
+}
+
+.container {
+    display: flex;
+    margin: 3em;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container strong {
+    font-size: xx-large;
+}
+
+.container img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.container button {
+    padding: 12px;
+    background-color: var(--primarycolor);
+    border-style: none;
+    color: white;
+    border-radius: 2px;
+    margin-top: 3%;
+}
+
+@media (max-width:500px) {
+    .container button {
+        font-size: 0.2em;
+        height: 0.1em;
+        margin-top: 10%;
+    }
+
+    .container a {
+        font-size: 60%;
+    }
+}
+
+.container a {
+    margin-top: 1%;
+    position: absolute;
+    color: var(--primarycolor);
+}
+
+.container1 {
+    background-color: rgb(214, 242, 245);
+    height: 7em;
+}
+
+.container1 .names {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 12px 70px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 12px 80px;
+
+
+}
+
+.images img {
+    margin-top: 12px;
+    width: 100%;
+    max-width: 70px;
+    height: auto;
+}
+
+.what {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.what img {
+    width: 100%;
+    max-width: 80px;
+}
+
+.what strong {
+    margin-left: 40%;
+    font-size: 2em;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15em;
+    margin-top: 3%;
+    padding: 3%;
+    text-align: center;
+
+}
+
+.card1:hover {
+    background-color: rgb(214, 242, 245);
+    box-shadow: 10px 10px 10px rgb(199, 195, 195);
+}
+
+.card1 img {
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+    margin-bottom: 2%;
+}
+
+.card1 p,
+a {
+    margin-top: 4%;
+}
+
+.card1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.card1 a:hover {
+    font-weight: 200;
+    background-color: rgb(168, 207, 211);
+}
+
+.explore {
+    text-align: center;
+    background-color: var(--primarycolor);
+    color: white;
+    border-style: none;
+    display: block;
+    width: 10em;
+    margin: auto;
+    position: relative;
+    top: 4em;
+    height: 3em;
+}
+
+.container2 {
+    display: flex;
+    position: relative;
+    margin: 7em 6em;
+
+}
+
+.container2 img {
+    max-width: 38em;
+    width: 100%;
+    height: auto;
+}
+
+.section {
+    background-image: linear-gradient(to right, var(--primarycolor), var(--secondarycolor));
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.sect1 {
+    margin-left: 4em;
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.sect1 img {
+    max-width: 100%;
+}
+
+.how p {
+    font-size: 2vw;
+    text-align: center;
+    position: relative;
+    top: 1em;
+}
+
+.how img {
+    max-width: 100%;
+    position: relative;
+    top: -30px;
+    left: 78vw;
+}
+
+.step1-3,
+.step4-6 {
+    display: flex;
+    align-items: center;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px;
+    height: 23vh;
+    font-size: 1vw;
+}
+
+.step img {
+    max-width: 100%;
+
+}
+
+.benef {
+    display: flex;
+    align-items: center;
+}
+
+.benef p {
+    display: block;
+    margin: auto;
+    font-size: 2vw;
+}
+
+.benef img {
+    max-width: 100%;
+    position: relative;
+}
+
+.benefdetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    margin: 2vw;
+}
+
+.deets img {
+    max-width: 100%;
+}
+
+.mid {
+    background-image: linear-gradient(to bottom, var(--primarycolor), var(--secondarycolor));
+}
+
+.ceo {
+    display: flex;
+    padding: 4vw;
+}
+
+.sm {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    justify-content: space-evenly;
+}
+
+.sm img,
+.smicons img {
+    height: 4vh;
+    width: 2vw;
+    max-width: 100%;
+}
+
+.sectionimg img {
+    width: 20vw;
+}
+
+.sectionstxt {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 60vw;
+}
+
+.hr {
+    width: 70vw;
+    color: black;
+    border-color: rgb(64, 61, 61);
+    display: block;
+    margin: auto;
+}
+
+.adv1 {
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.adv1 p {
+    color: white;
+    margin-left: 40vw;
+    font-size: 2vw;
+}
+
+.adv1 img {
+    width: 5%;
+    height: auto;
+}
+
+.advcontainer,
+.advcontainer3 {
+    position: relative;
+    display: block;
+    width: 20vw;
+    height: 320px;
+    background: black;
+    background: url(/assets/advisor-1.jpg);
+    background-size: cover;
+    margin: 12px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.advcontainer3 {
+    background: black;
+}
+
+.advcontainer2 {
+    position: relative;
+    display: block;
+    width: 20vw;
+    height: 320px;
+    background: black;
+    background: url(/assets/advisor-2.jpg);
+    background-size: cover;
+    margin: 12px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.hoverdiv,
+.hoverdiv2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+    padding: 5em;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.advcontainer:hover .hoverdiv {
+    opacity: 1;
+}
+
+.container3 {
+    display: flex;
+}
+
+.starsect {
+    background-color: rgb(199, 236, 240);
+    padding: 2vw;
+}
+
+.star {
+    padding: 2em;
+    position: relative;
+    display: block;
+    width: 10vw;
+    margin: auto;
+}
+
+.starsect p {
+    width: 40vw;
+    text-align: center;
+    margin-left: 28%;
+}
+
+.starimages {
+    display: block;
+    width: 9vw;
+    margin: auto;
+}
+
+.starimages img {
+    width: 40px;
+    max-width: 100%;
+    margin: 2px;
+}
+
+.news img {
+    width: 100%;
+    max-width: 10vw;
+    height: auto;
+}
+
+.news p {
+    display: block;
+    width: 20vw;
+    margin: auto;
+    font-size: 2vw;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vw;
+}
+
+#myBtn,
+#myBtn2,
+#myBtn3 {
+    color: var(--primarycolor);
+    border-style: none;
+    background-color: white;
+    font-weight: bolder;
+}
+
+#more,
+#more2,
+#more3 {
+    display: none;
+}
+
+.properties {
+    display: flex;
+    justify-content: center;
+}
+
+.propcard {
+    width: 25vw;
+    margin: 1vw;
+}
+
+.propcard img {
+    width: 100%;
+    height: auto;
+}
+
+.view button {
+    background-color: var(--primarycolor);
+    height: 3em;
+    display: block;
+    width: 7vw;
+    height: auto;
+    padding: 1vw;
+    margin: auto;
+    font-size: 0.85em;
+    border-style: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.view img {
+    float: right;
+    width: 100%;
+    height: auto;
+    max-width: 3vw;
+}
+
+.cities {
+    display: flex;
+
+    justify-content: center;
+}
+
+.cities button {
+    width: 6vw;
+    padding: 0.6vw;
+    margin: 3vw 2vw;
+    border-radius: 1vw;
+    border: none;
+}
+
+.mumbai {
+    background: linear-gradient(to right, var(--primarycolor), var(--secondarycolor));
+    color: white;
+}
+
+.mapbig {
+    width: 100%;
+    height: auto;
+}
+
+.loc {
+    position: relative;
+    left: 46.5vw;
+    top: -19vw;
+    max-width: 100%;
+    width: 3vw;
+    z-index: 1;
+}
+
+.map {
+    position: relative;
+}
+
+.mapcard {
+    width: 13vw;
+    padding: 2vw;
+    position: absolute;
+    top: 9vw;
+    left: 45vw;
+    background-color: white;
+    border-radius: 1vw;
+    box-shadow: 2px 2px 4px rgb(154, 129, 129);
+}
+
+.contactpe {
+    display: flex;
+    align-items: center;
+}
+
+.contactpe img,
+.othertxt img {
+    width: 100%;
+    max-width: 2vw;
+    height: auto;
+    margin-right: 0.1vw;
+}
+
+.mapmumbai,
+.contactpe,
+.address {
+    padding: 0.2vw;
+}
+
+.mapmumbai {
+    color: var(--primarycolor);
+    font-weight: 900;
+}
+
+.title {
+    display: block;
+    position: absolute;
+}
+
+.titleimg {
+    width: 100%;
+    height: auto;
+    max-width: 6vw;
+    position: absolute;
+    top: 0;
+}
+
+.title p {
+    margin-left: 50vw;
+    font-size: 2vw;
+}
+
+#cloud {
+    max-width: 4vw;
+    left: 95vw;
+}
+
+.contactsection {
+    margin: 7vw;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+textarea {
+    width: 37vw;
+    padding: 1vw;
+    margin: 1vw;
+    border: 1px solid black;
+    border-radius: 0.2vw;
+}
+
+#sub {
+    color: white;
+    background-color: var(--primarycolor);
+    border: none;
+    display: block;
+    width: 6vw;
+    margin: auto;
+}
+
+.magnify img {
+    width: 100%;
+    max-width: 9vw;
+    height: auto;
+    position: absolute;
+    right: 0;
+}
+
+.contactdeets {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    margin: 2vw;
+}
+
+.contactdeets p {
+    margin: 2vw;
+}
+
+.othertxt {
+    margin-left: 7vw;
+    font-size: 1.3vw;
+}
+
+#building {
+    position: absolute;
+    right: 4vw;
+    width: 100%;
+    max-width: 17vw;
+    height: auto;
+}
+
+.footer {
+    margin-top: 11vw;
+    background-color: rgb(47, 47, 47);
+    padding: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footersect1 {
+    width: 30%;
+}
+
+.footercontact,
+.officeaddress {
+    color: white;
+}
+
+.f_email,
+.f_phone {
+    display: flex;
+}
+
+.f_email img,
+.f_phone img {
+    margin: 0.2vw;
+}
+
+.footersect2 ul,
+.services {
+    list-style: none;
+    color: white;
+}
+
+.footersect2 p,
+ul li {
+    padding: 0.1vw;
+    margin: 1vw;
+}
+
+.smicons img {
+    margin: 0.3vw;
+}
+
+.f_email p,
+.f_phone p,
+.officeaddress p {
+    margin: 0.2vw;
+}
+
+
+.footerul {
+    list-style: none;
+    color: white;
+}
+
+.housewise img {
+    width: 100%;
+    max-width: 20vw;
+    height: auto;
+}
+
+.smicons img,
+.f_email img,
+.f_phone img {
+    width: 100%;
+    max-width: 1vw;
+    max-height: 1vw;
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+@media (max-width:600px) {
+
+    .container1 {
+        height: 4em;
+        width: 100vw;
+    }
+
+    .names p {
+        display: none;
+    }
+
+    .images {
+        display: flex;
+        max-width: 30px;
+        align-items: center;
+    }
+
+    .what img {
+        width: 10%;
+    }
+
+    .what strong {
+        font-size: 1em;
+        margin-left: 10%;
+    }
+
+    .cards {
+        flex-direction: column;
+        position: relative;
+        top: 12em;
+        font-size: 60%;
+        width: 70px;
+        margin-left: 20px;
+    }
+
+    .explore {
+        top: 20em;
+        margin-left: 40px;
+        font-size: 60%;
+    }
+
+    .container2 img {
+        display: none;
+    }
+
+    .container2 {
+        top: 18em;
+        margin-left: 2em;
+        font-size: 60%;
+    }
+
+    .container2 button {
+        top: 3em;
+    }
+
+    .section {
+        position: relative;
+        top: 10em;
+
+    }
+
+    .how {
+        position: relative;
+        top: 12em;
+    }
+
+    .how img {
+        width: 3em;
+        margin-right: -3em;
+    }
+
+    .step {
+        font-size: 60%;
+        max-width: 100%;
+        position: relative;
+        top: 20em;
+    }
+
+    .sectionmain {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .benef img {
+        max-width: 15%;
+    }
+
+    .benef p {
+        margin-left: 20%;
+    }
+
+    .benefdetails {
+        flex-direction: column;
+        font-size: 60%;
+    }
+
+    .sections {
+        display: none;
+    }
+
+    .sectionstxt {
+        font-size: 50%;
+    }
+
+    .sm img {
+        width: 2vw;
+        height: 2vh;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .advcontainer,
+    .advcontainer2,
+    .advcontainer3 {
+        width: 60%;
+        font-size: 50%;
+    }
+
+    .star {
+        display: flex;
+        margin-left: 20%;
+    }
+
+    .starimages {
+        display: flex;
+        margin-left: 33vw;
+    }
+
+    .view {
+        font-size: 60%;
+    }
+
+    .cities button {
+        font-size: 60%;
+        width: 10vw;
+        margin-left: 1vw;
+    }
+
+    .mapcard {
+        font-size: 30%;
+        padding: 1px;
+    }
+
+    #sub {
+        font-size: 40%;
+    }
+
+    .contactsection {
+        flex-direction: column;
+    }
+
+    #building {
+        right: 30vw;
+    }
+
+    .footer {
+        font-size: 60%;
+    }
+}
